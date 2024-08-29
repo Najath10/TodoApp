@@ -1,0 +1,38 @@
+.todo-input-container {
+  display: flex;
+  justify-content: center;
+}
+.input-field {
+  width: 297px;
+  height: 40px;
+  top: -328px;
+  left: 1190px;
+  padding: 10px;
+  gap: 0px;
+  color:#8fa8c1 ;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #152431;
+  border: 1px solid #8fa8c180;
+}
+.add-todo-button {
+    background: #0c5488;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #8fa8c1;
+    border-radius: 4px;
+    padding: 8px;
+    width: 95px;
+    height: 40px;
+    transition: 0.2s ease-in-out;
+}
+.add-todo-button :hover{
+    background-color: #010202;
+}
+::placeholder{
+    color: #8097af;
+    opacity: 1;
+
+}
+
